@@ -2803,11 +2803,11 @@ blockquote {
 .brand {
   z-index: 1;
   float: none;
-  font-weight: 700;
+  font-weight: 700 !important;
   display: flex;
   flex-direction: row;
   align-items: center;
-  line-height: 1.5;
+  line-height: 1.5 !important;
 }
 
 .brand.toip {
