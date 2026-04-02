@@ -2803,11 +2803,13 @@ blockquote {
 .brand {
   z-index: 1;
   float: none;
-  font-weight: 700 !important;
   display: flex;
   flex-direction: row;
   align-items: center;
-  line-height: 1.5 !important;
+  font-family: Oswald, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 .brand.toip {
